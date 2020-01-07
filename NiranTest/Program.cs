@@ -15,7 +15,15 @@ namespace NiranTest
 
             // we can run this cosole application using task scheduler in fixed intervals  (or non stop depending on when and how much to update the data)
 
+
+            //1.
             CurrencyManager.getAllConvertions();
+
+
+
+            //2.
+            RedisCache.getAllRates();
+
         }
     }
 }

@@ -3,7 +3,6 @@ C:\Users\guy.gazit\source\repos\NiranTest\NiranTest\bin\Debug\NiranTest.exe
 C:\Users\guy.gazit\source\repos\NiranTest\NiranTest\bin\Debug\NiranTest.pdb
 C:\Users\guy.gazit\source\repos\NiranTest\NiranTest\bin\Debug\Newtonsoft.Json.dll
 C:\Users\guy.gazit\source\repos\NiranTest\NiranTest\bin\Debug\Newtonsoft.Json.xml
-C:\Users\guy.gazit\source\repos\NiranTest\NiranTest\obj\Debug\NiranTest.csprojAssemblyReference.cache
 C:\Users\guy.gazit\source\repos\NiranTest\NiranTest\obj\Debug\NiranTest.csproj.CopyComplete
 C:\Users\guy.gazit\source\repos\NiranTest\NiranTest\obj\Debug\NiranTest.exe
 C:\Users\guy.gazit\source\repos\NiranTest\NiranTest\obj\Debug\NiranTest.pdb

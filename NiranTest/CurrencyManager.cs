@@ -40,29 +40,10 @@ namespace NiranTest
                     {
                         //I chose redis since its fast rliable and sinchronised, 
                         //currently im saving the data localy in redis but if we'll pay for a server every one would be able to connect and get the currency they need
-                       
 
 
-
-
-                        //saving rate to redis in this format key "converstionDictionary::USD-ILS" and value is the convertion rate and then the date separeted by ":" 
-
-
-
-
-                        var redis = RedisCache.RedisCacheDB;
-
-                        redis.StringSet("converstionDictionary::"+ arrFrom[i] +"-"+ arrTo[i], rate.ToString()+":"+DateTime.Now.ToString());
-
-                        /* in order to test to see if it saved correctly run this
-                         var val = redis.StringGet("converstionDictionary::" + arrFrom[i] + "-" + arrTo[i]);
-
-                     for example 
-                         var val = redis.StringGet("converstionDictionary::USD-ILS");
-
-
-                         */
-
+                        RedisCache.saveRate(arrFrom[i], arrTo[i],rate);
+            
                     }
 
                 }
